@@ -1,0 +1,23 @@
+---
+title: "test site"
+author: "Dani Cosme"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    code_folding: hide
+    df_print: paged
+    highlight: tango
+    theme: united
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Test site
+Here is an example site.
+
+## Table of contents
+[Example page from group 1](group1/example_page.html)
+
+[Example page from group 2](group2/example_page.html)
